@@ -1332,6 +1332,7 @@
 				969676682657C9740070E7F7 /* Frameworks */,
 				969676692657C9740070E7F7 /* Resources */,
 				D878FBE8590C8120E827EFA9 /* [CP] Embed Pods Frameworks */,
+				96DC8E1B2680867E00FEC74B /* ShellScript */,
 				969678912657CA930070E7F7 /* ShellScript */,
 			);
 			buildRules = (
@@ -1434,6 +1435,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		96DC8E1B2680867E00FEC74B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find dSYM_directory -name \"*.dSYM\" | xargs -I \\{\\} $PODS_ROOT/FirebaseCrashlytics/upload-symbols -gsp /path/to/GoogleService-Info.plist -p platform \\{\\}\n";
 		};
 		D878FBE8590C8120E827EFA9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1788,7 +1806,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/EMT/Resource/Info.plist";
@@ -1797,7 +1815,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.emt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "EMT Development Profile";
@@ -1815,7 +1833,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/EMT/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1823,7 +1841,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.emt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "EMT AppStore Profile";
