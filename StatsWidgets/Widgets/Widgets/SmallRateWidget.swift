@@ -24,15 +24,15 @@ struct SmallRateWidget: Widget {
                 Text("Widgets.PassRate".localized)
                     .font(.system(size: 19.scale))
                     .fontWeight(.semibold)
-                    .foregroundColor(Color.make(1, green: 206, blue: 211))
+                    .foregroundColor(Color.make(250, green: 147, blue: 142))
                 Spacer()
                 Text(String(format: "%.0f%%", min(entry.passRate / 100, 1.0) * 100.0))
                     .font(.system(size: 42.scale))
                     .fontWeight(.bold)
-                    .foregroundColor(Color.make(1, green: 206, blue: 211))
+                    .foregroundColor(Color.make(1, green: 143, blue: 161))
                 Spacer(minLength: 10.scale)
                 LineProgressView(progress: entry.passRate / 100,
-                                 color: Color.make(1, green: 206, blue: 211))
+                                 color: Color.make(1, green: 143, blue: 161))
                     .frame(height: 6.scale)
             }
             .padding(16)

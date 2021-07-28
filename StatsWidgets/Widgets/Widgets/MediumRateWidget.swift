@@ -25,21 +25,21 @@ struct MediumRateWidget: Widget {
                     PassRateView(title: "Widgets.PassRate".localized,
                                  progressFontSize: 19.scale,
                                  progress: entry.passRate / 100,
-                                 titleColor: Color.make(1, green: 143, blue: 161),
-                                 progressColor: Color.make(1, green: 206, blue: 211))
+                                 titleColor: Color.make(250, green: 147, blue: 142),
+                                 progressColor: Color.make(1, green: 143, blue: 161))
                     Spacer()
                     HStack() {
                         MediumVerticalRateView(count: entry.testsTakenNum,
                                                title: "Widgets.TestsTaken".localized,
-                                               color: Color.make(1, green: 143, blue: 161))
+                                               color: Color.make(250, green: 147, blue: 142))
                         Spacer()
                         MediumVerticalRateView(count: entry.correctAnswersNum,
                                                title: "Widgets.CorrectAnswers".localized,
-                                               color: Color.make(1, green: 206, blue: 211))
+                                               color: Color.make(1, green: 143, blue: 161))
                         Spacer()
                         MediumVerticalRateView(count: entry.answeredQuestions,
                                                title: "Widgets.QuestionsTaken".localized,
-                                               color: Color.make(250, green: 147, blue: 142))
+                                               color: Color.make(1, green: 206, blue: 211))
                     }
                 }
                 .padding(16)

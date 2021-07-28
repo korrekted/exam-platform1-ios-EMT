@@ -35,19 +35,19 @@ struct LargeRateWidget: Widget {
                 HorizontalRateView(progress: entry.testTaken,
                                    title: "Widgets.TestsTaken".localized,
                                    titleColor: Color.make(19, green: 24, blue: 42),
-                                   progressColor: Color.make(1, green: 143, blue: 161))
+                                   progressColor: Color.make(250, green: 147, blue: 142))
                     .padding(EdgeInsets(top: 4.scale, leading: 16.scale, bottom: 4.scale, trailing: 16.scale))
                 Spacer()
                 HorizontalRateView(progress: entry.correctAnswers,
                                    title: "Widgets.CorrectAnswers".localized,
                                    titleColor: Color.make(19, green: 24, blue: 42),
-                                   progressColor: Color.make(1, green: 206, blue: 211))
+                                   progressColor: Color.make(1, green: 143, blue: 161))
                     .padding(EdgeInsets(top: 4.scale, leading: 16.scale, bottom: 4.scale, trailing: 16.scale))
                 Spacer()
                 HorizontalRateView(progress: entry.questionsTaken,
                                    title: "Widgets.QuestionsTaken".localized,
                                    titleColor: Color.make(19, green: 24, blue: 42),
-                                   progressColor: Color.make(250, green: 147, blue: 142))
+                                   progressColor: Color.make(1, green: 206, blue: 211))
                     .padding(EdgeInsets(top: 4.scale, leading: 16.scale, bottom: 16.scale, trailing: 16.scale))
             }
         }

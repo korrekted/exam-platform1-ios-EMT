@@ -222,7 +222,6 @@
 		96BF2FF526B157FF00AEF6D3 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2F0E26B157FE00AEF6D3 /* OImproveCell.swift */; };
 		96BF2FF626B157FF00AEF6D3 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2F1026B157FE00AEF6D3 /* ReferencesTableCell.swift */; };
 		96BF2FF726B157FF00AEF6D3 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2F1126B157FE00AEF6D3 /* ReferencesTableView.swift */; };
-		96BF2FF826B157FF00AEF6D3 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BF2F1326B157FE00AEF6D3 /* Onboarding.Chart.json */; };
 		96BF2FF926B157FF00AEF6D3 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2F1426B157FE00AEF6D3 /* OWhenStudyCell.swift */; };
 		96BF2FFA26B157FF00AEF6D3 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2F1626B157FE00AEF6D3 /* WelcomeSlide1View.swift */; };
 		96BF2FFB26B157FF00AEF6D3 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2F1726B157FE00AEF6D3 /* WelcomeSlideIndicatorView.swift */; };
@@ -263,6 +262,7 @@
 		96BF303126B1598700AEF6D3 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2E0126B157FE00AEF6D3 /* Scalable.swift */; };
 		96BF303226B1598D00AEF6D3 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2E6E26B157FE00AEF6D3 /* Stats.swift */; };
 		96BF303326B1599200AEF6D3 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF2E7826B157FE00AEF6D3 /* StatsShareManager.swift */; };
+		96BF329026B1737200AEF6D3 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BF328F26B1737200AEF6D3 /* Onboarding.Chart.json */; };
 		C0DEDA558C696628ACE2074E /* Pods_EMT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E836A2EA16FCF0ECAC309 /* Pods_EMT.framework */; };
 /* End PBXBuildFile section */
 
@@ -511,7 +511,6 @@
 		96BF2F0E26B157FE00AEF6D3 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		96BF2F1026B157FE00AEF6D3 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		96BF2F1126B157FE00AEF6D3 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		96BF2F1326B157FE00AEF6D3 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		96BF2F1426B157FE00AEF6D3 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		96BF2F1626B157FE00AEF6D3 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		96BF2F1726B157FE00AEF6D3 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -549,6 +548,7 @@
 		96BF302026B1584400AEF6D3 /* MediumRateWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumRateWidget.swift; sourceTree = "<group>"; };
 		96BF302D26B158FD00AEF6D3 /* StatsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		96BF302E26B1591400AEF6D3 /* EMT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EMT.entitlements; sourceTree = "<group>"; };
+		96BF328F26B1737200AEF6D3 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		9D4E836A2EA16FCF0ECAC309 /* Pods_EMT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80CAF48225FDE30D36D8B76 /* Pods-EMT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMT.debug.xcconfig"; path = "Target Support Files/Pods-EMT/Pods-EMT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1543,7 +1543,7 @@
 		96BF2F1226B157FE00AEF6D3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				96BF2F1326B157FE00AEF6D3 /* Onboarding.Chart.json */,
+				96BF328F26B1737200AEF6D3 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1700,7 +1700,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BF2FF826B157FF00AEF6D3 /* Onboarding.Chart.json in Resources */,
+				96BF329026B1737200AEF6D3 /* Onboarding.Chart.json in Resources */,
 				9696788E2657CA540070E7F7 /* LaunchScreen.storyboard in Resources */,
 				969678882657CA370070E7F7 /* Localizable.strings in Resources */,
 				969678842657CA320070E7F7 /* SF-Pro-Rounded-Regular.otf in Resources */,

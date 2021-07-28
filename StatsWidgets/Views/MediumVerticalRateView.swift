@@ -18,7 +18,7 @@ struct MediumVerticalRateView: View {
     var titleColor: Color {
         colorScheme == .dark
             ? Color.make(247, green: 250, blue: 255)
-            : Color.make(1, green: 143, blue: 161)
+            : Color.make(250, green: 147, blue: 142)
     }
     
     var body: some View {
