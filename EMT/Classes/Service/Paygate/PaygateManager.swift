@@ -15,6 +15,8 @@ protocol PaygateManagerProtocol {
 
 final class PaygateManager: PaygateManagerProtocol {
     private let defaultRequestWrapper = DefaultRequestWrapper()
+    
+    private let iapManager = SDKStorage.shared.iapManager
 }
 
 // MARK: Public
@@ -28,8 +30,7 @@ extension PaygateManager {
             return .deferred { .just(paygate) }
         }
         
-        return SDKStorage.shared
-            .iapManager
+        return iapManager
             .obtainProducts(ids: paygate.productsIds)
             .map { products -> [ProductPrice] in
                 products.map { ProductPrice(product: $0.product) }

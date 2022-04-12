@@ -1104,11 +1104,11 @@
 		DE1A691E27E31BE400EB56F6 /* Paygate */ = {
 			isa = PBXGroup;
 			children = (
+				DE1A692327E31BE400EB56F6 /* Views */,
 				DE1A691F27E31BE400EB56F6 /* PaygateViewModel.swift */,
 				DE1A692027E31BE400EB56F6 /* PaygateViewControllerDelegate.swift */,
 				DE1A692127E31BE400EB56F6 /* PaygateView.swift */,
 				DE1A692227E31BE400EB56F6 /* PaygateViewController.swift */,
-				DE1A692327E31BE400EB56F6 /* Views */,
 			);
 			path = Paygate;
 			sourceTree = "<group>";
@@ -2359,7 +2359,7 @@
 				CODE_SIGN_ENTITLEMENTS = EMT/EMT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/EMT/Resource/Info.plist";
@@ -2368,7 +2368,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.14;
+				MARKETING_VERSION = 2.0.15;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.emt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "EMT Dev";
@@ -2388,7 +2388,7 @@
 				CODE_SIGN_ENTITLEMENTS = EMT/EMT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/EMT/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2396,7 +2396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.14;
+				MARKETING_VERSION = 2.0.15;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.emt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "EMT Prod";
