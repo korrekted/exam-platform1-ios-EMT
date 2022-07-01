@@ -6,7 +6,7 @@
 //
 
 final class GlobalDefinitions {
-    static let domainUrl = "https://exams.quantresear.ch"
+    static let domainUrl = "https://exams.mastrapi.com"
     static let apiKey = "M1cnYpenrNNxXL6M"
 
     static let sdkDomainUrl = "https://analytics.korrekted.com"
@@ -17,6 +17,7 @@ final class GlobalDefinitions {
     static let amplitudeApiKey = "b503251969f4b1d7901d2f7d1388d476"
     static let appsFlyerApiKey = "DCciCfYXjMQ8QnkdCg8qzk"
 
+    static let appStoreUrl = "https://apps.apple.com/app/emt-prep/id1568136144"
     static let appleAppID = "1568136144"
 
     static let termsOfServiceUrl = "https://quantresear.ch/terms.html"
