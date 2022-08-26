@@ -56,7 +56,7 @@ private extension OSlideWelcomeView {
         
         SDKStorage.shared
             .amplitudeManager
-            .logEvent(name: "Welcome Screen", parameters: ["number": 1])
+            .logEvent(name: "Welcome Screen", parameters: [:])
     }
     
     @objc
@@ -67,10 +67,6 @@ private extension OSlideWelcomeView {
             onNext()
             return
         }
-        
-        SDKStorage.shared
-            .amplitudeManager
-            .logEvent(name: "Welcome Screen", parameters: ["number": indicatorView.index])
         
         scroll()
         updateButton()
